@@ -13,8 +13,7 @@
     "concepts": {
       "type": "component",
       "repeatable": true,
-      "component": "page.concepts",
-      "required": true
+      "component": "page.concepts"
     }
   }
 }

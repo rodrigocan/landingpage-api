@@ -2,13 +2,11 @@
   "kind": "singleType",
   "collectionName": "landing_pages",
   "info": {
-    "name": "landingPage",
-    "description": ""
+    "name": "landingPage"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
   "attributes": {
     "logo": {
@@ -49,8 +47,7 @@
     "sectionAgenda": {
       "type": "component",
       "repeatable": false,
-      "component": "page.section-agenda",
-      "required": true
+      "component": "page.section-agenda"
     },
     "pricingBox": {
       "type": "component",
